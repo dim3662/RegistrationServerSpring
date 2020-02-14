@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="../static/css/login.css">
+</head>
+<body>
+<main>
+    <form action="/log" method="post">
+        <div class="reg">
+            <div class="log">
+                <div class="logImg"></div>
+                <img class="person" src="https://img.icons8.com/dusk/20/000000/user-credentials.png">
+                <input class="textLog" id="postlog" type="text" placeholder="Login">
+            </div>
+            <div class="pass">
+                <div class="passImg"></div>
+                <img class="key" src="https://img.icons8.com/dusk/64/000000/key.png">
+                <input class="textPass" id="postpass" type="text" placeholder="Password">
+            </div>
+            <div class="wrong" id="wrong"></div>
+            <input type="button" class="go" id="go"  value="Go">
+        </div>
+    </form>
+    <div class="other">
+        <input type="checkbox" class="saveMe" name="saveMe" id="saveMe" value="saveMe"><label class="saveMeLabel"
+                                                                                              for="saveMe">Remember
+        me</label><label class="crest" for="saveMe"></label> <Br>
+        <a class="notReg" href="/registration">Registration</a>
+
+    </div>
+</main>
+</body>
+<script src="/js/login.js"></script>
+</html>

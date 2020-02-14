@@ -1,0 +1,329 @@
+body {
+    font-family: "Comic Sans MS";
+    background: #0e0e0e;
+    color: white;
+}
+
+main {
+    font-family: "Comic Sans MS";
+    width: 299px;
+    height: 360px;
+    background: #292931;
+    margin-top: 106px;
+    margin-left: 524px;
+    border-radius: 20px;
+}
+
+.reg {
+    display: inline-block;
+    margin-top: 43px;
+    margin-left: 33px;
+    width: 233px;
+    height: 232px;
+    background: #423143;
+    position: relative;
+}
+
+.textRepeatPass {
+    font-family: "Comic Sans MS";
+    display: block;
+    width: 145px;
+    height: 36px;
+    padding: 0;
+    margin: 18px 0 0 50px;
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+    padding-left: 20px;
+}
+
+.textRepeatPass:focus {
+    outline: none;
+    border: none;
+}
+
+.textRepeatPass:hover {
+    cursor: pointer;
+}
+
+
+
+.textEmail {
+    font-family: "Comic Sans MS";
+    display: block;
+    width: 145px;
+    height: 36px;
+    padding: 0;
+    margin: 18px 0 0 50px;
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+    padding-left: 20px;
+}
+
+.textEmail:focus {
+    outline: none;
+    border: none;
+}
+
+.textEmail:hover {
+    cursor: pointer;
+}
+
+.textLog {
+    font-family: "Comic Sans MS";
+    display: block;
+    width: 145px;
+    height: 36px;
+    padding: 0;
+    margin: 18px 0 0 50px;
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+    padding-left: 20px;
+}
+
+.textLog:focus {
+    outline: none;
+    border: none;
+}
+
+.textLog:hover {
+    cursor: pointer;
+}
+
+.imgEmail {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: #dedede;
+    border-radius: 3px;
+    top: 18px;
+    left: 17px;
+}
+
+.logImg {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: #dedede;
+    border-radius: 3px 0px 0px 3px;
+    top: 72px;
+    left: 17px;
+}
+
+.textPass {
+    font-family: "Comic Sans MS";
+    display: block;
+    width: 145px;
+    height: 36px;
+    padding: 0;
+    margin: 18px 0 0 50px;
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+    padding-left: 20px;
+
+}
+
+.textPass:focus {
+    outline: none;
+    border: none;
+}
+
+.textPass:hover {
+    cursor: pointer;
+}
+
+.emailImg {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: #dedede;
+    border-radius: 3px;
+    top: 18px;
+    left: 17px;
+}
+
+.passImg{
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: #dedede;
+    border-radius: 3px;
+    top: 126px;
+    left: 17px;
+}
+.repeatPassImg{
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: #dedede;
+    border-radius: 3px;
+    top: 180px;
+    left: 17px;
+}
+.register {
+    font-family: "Comic Sans MS";
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    width: 80px;
+    height: 36px;
+    border-radius: 15px;
+    border: white solid 2px;
+    background: #ad6cac;
+    top: 255px;
+    left: 75px;
+    z-index: 1;
+}
+
+.register:active{
+
+    background: #835182;
+}
+
+.keySecond{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 187px;
+    left: 25px;
+}
+.key {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 133px;
+    left: 25px;
+}
+
+.person {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 80px;
+    left: 27px;
+}
+
+.notReg {
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.other .saveMeLabel:before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    left: -20px;
+    border: white 2px solid;
+}
+
+.crest {
+    display: none;
+    position: absolute;
+    top: 7px;
+    left: 37px;
+}
+
+.crest:after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 2px;
+    background: white;
+    top: 4px;
+    left: 0px;
+    transform: rotate(45deg);
+}
+
+.crest:before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 2px;
+    background: white;
+    top: 4px;
+    left: 0px;
+    transform: rotate(-45deg);
+}
+
+.redCrest{
+     position: absolute;
+     display: block;
+     left: 217px;
+     top:194px;
+ }
+
+.redCrest:before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 2px;
+    background: red;
+    top: 4px;
+    left: 0px;
+    transform: rotate(45deg);
+}
+
+.redCrest:after{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 2px;
+    background: red;
+    top: 4px;
+    left: 0px;
+    transform: rotate(-45deg);
+}
+
+.redCrestSecond{
+    position: absolute;
+    display: block;
+    left: 217px;
+    top:140px;
+}
+
+.redCrestSecond:before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 2px;
+    background: red;
+    top: 4px;
+    left: 0px;
+    transform: rotate(45deg);
+}
+
+.redCrestSecond:after{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 2px;
+    background: red;
+    top: 4px;
+    left: 0px;
+    transform: rotate(-45deg);
+}
+
+.exist:before{
+    position: relative;
+    display: block;
+    content: "User with this email or login already exist";
+    font-size: 11px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.okeyReg:before{
+     position: relative;
+     display: block;
+     content: "New user successfully registered";
+     font-size: 11px;
+     margin-top: 18px;
+     margin-left: 30px;
+ }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../static/css/registration.css">
+    <link rel="stylesheet" href="/css/registration.css">
+</head>
+<body>
+<a class="notReg" href="/"><<= Back</a>
+<main>
+    <form action="/reg" method="post">
+        <div class="reg">
+            <div class="email">
+                <div class="emailImg"></div>
+                <img class="imgEmail" src="https://img.icons8.com/dusk/64/000000/email.png">
+                <input class="textEmail" id="postEmail" type="text" placeholder="Email">
+            </div>
+            <div class="log">
+                <div class="logImg"></div>
+                <img class="person" src="https://img.icons8.com/dusk/20/000000/user-credentials.png">
+                <input class="textLog" id="postLog" type="text" placeholder="Login">
+            </div>
+            <div class="pass">
+                <div class="passImg"></div>
+                <img class="key" src="https://img.icons8.com/dusk/64/000000/key.png">
+                <input class="textPass" id="postPass" type="text" placeholder="Password">
+            </div>
+            <div class="repeatPass">
+                <div class="repeatPassImg"></div>
+                <img class="keySecond" src="https://img.icons8.com/dusk/64/000000/key.png">
+                <input class="textRepeatPass" id="postRepeatPass" type="text" placeholder="Repeat password">
+            </div>
+            <div class="exist" id="exist"></div>
+            <div class="okeyReg" id="okeyReg"></div>
+            <span class="redCrest" id="redCrest"></span>
+            <span class="redCrestSecond" id="redCrestSecond"></span>
+            <input type="button" class="register" id="register"  value="Register">
+        </div>
+    </form>
+</main>
+</body>
+<script src="/js/registration.js"></script>
+</html>
