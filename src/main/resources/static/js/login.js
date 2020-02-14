@@ -25,7 +25,7 @@ go.addEventListener('click', function (event) {
 
     let user = new User(log.value, pass.value);
 
-    if (log.value != "" && pass.value != "") {
+        if (log.value != "" && pass.value != "") {
         var xhr = new XMLHttpRequest();
         var url = "/loger";
         xhr.open("POST", url, true);
